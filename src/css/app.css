@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+  background-color: rgb(21, 32, 43);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+}
+.app .container {
+  margin: 1rem;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#header {
+  margin: 1rem;
+  font-weight: 700;
+  color: bisque;
+}
+
+.search {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search input {
+  box-shadow: 1px 1px 5px 1px #f3f3f3;
+  background-color: rgb(24, 34, 43);
+  border: none;
+  position: relative;
+  border-radius: 0.5rem;
+  border-style: none;
+  outline: none;
+  padding: 0.8rem;
+  width: 40%;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  font-size: 1.4em;
+  color: bisque;
+  margin-right: 1.5rem;
+}
+.search input:focus {
+  box-shadow: 1px 1px 5px 1px bisque;
+}
+.search img {
+  padding: 0.51rem;
+  background-color: bisque;
+  border-radius: 0.5rem;
+  height: 35px;
+  width: 35px;
+}
+.search img:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 1px bisque;
+}
+.search .empty h2 {
+  color: bisque;
+}/*# sourceMappingURL=app.css.map */

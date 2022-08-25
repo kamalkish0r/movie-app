@@ -1,0 +1,50 @@
+$backgroundColor: rgb(30, 44, 58);
+
+.movie-card {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 300px;
+    padding-bottom: .5rem;
+
+    border-radius: .5rem;
+    color: bisque;
+    margin: 1rem 1rem;
+    background-color: $backgroundColor;
+
+    .poster {
+        border-radius: .5rem;
+        height: 70%;
+        width: 100%;
+        margin-bottom: 1.5rem;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .movie-card-info {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    h3,
+    h4,
+    a {
+        margin-left: .5rem;
+        margin-bottom: .6rem;
+    }
+
+    a {
+        color: bisque;
+        text-decoration: none;
+        margin-bottom: .5rem;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: salmon;
+    }
+}

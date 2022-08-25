@@ -1,0 +1,41 @@
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  width: 300px;
+  padding-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  color: bisque;
+  margin: 1rem 1rem;
+  background-color: rgb(30, 44, 58);
+}
+.movie-card .poster {
+  border-radius: 0.5rem;
+  height: 70%;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.movie-card .poster img {
+  height: 100%;
+  width: 100%;
+}
+.movie-card .movie-card-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.movie-card h3,
+.movie-card h4,
+.movie-card a {
+  margin-left: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+.movie-card a {
+  color: bisque;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+.movie-card a:hover {
+  color: salmon;
+}/*# sourceMappingURL=moviecard.css.map */
